@@ -17,9 +17,9 @@ function setup() {
   amplitude.position(10,10);
   amplitude.style('width', '80px');
   
-  frequency=createSlider(0,100,100);
+  frequency=createSlider(0,1000,0);
   frequency.position(100,10);
-  frequency.style('width', '80px');
+  frequency.style('width', '160px');
   
 }
 
